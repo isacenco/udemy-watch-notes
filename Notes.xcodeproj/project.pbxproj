@@ -11,6 +11,7 @@
 		E1DEC4F02EACD9090061E95E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DEC4ED2EACD9090061E95E /* ContentView.swift */; };
 		E1DEC4F12EACD9090061E95E /* NotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DEC4EE2EACD9090061E95E /* NotesApp.swift */; };
 		E1DEC4F22EACD9090061E95E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1DEC4EC2EACD9090061E95E /* Assets.xcassets */; };
+		E1DEC4F62EACDAE30061E95E /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DEC4F52EACDAE30061E95E /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		E1DEC4EC2EACD9090061E95E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1DEC4ED2EACD9090061E95E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E1DEC4EE2EACD9090061E95E /* NotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesApp.swift; sourceTree = "<group>"; };
+		E1DEC4F52EACDAE30061E95E /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,11 +78,28 @@
 		E1DEC4EF2EACD9090061E95E /* Notes Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				E1DEC4F42EACDAD30061E95E /* Model */,
 				E1DEC4EC2EACD9090061E95E /* Assets.xcassets */,
-				E1DEC4ED2EACD9090061E95E /* ContentView.swift */,
+				E1DEC4F32EACDABA0061E95E /* View */,
 				E1DEC4EE2EACD9090061E95E /* NotesApp.swift */,
 			);
 			path = "Notes Watch App";
+			sourceTree = "<group>";
+		};
+		E1DEC4F32EACDABA0061E95E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1DEC4ED2EACD9090061E95E /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1DEC4F42EACDAD30061E95E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1DEC4F52EACDAE30061E95E /* Note.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +206,7 @@
 			files = (
 				E1DEC4F02EACD9090061E95E /* ContentView.swift in Sources */,
 				E1DEC4F12EACD9090061E95E /* NotesApp.swift in Sources */,
+				E1DEC4F62EACDAE30061E95E /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
