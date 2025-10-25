@@ -1,0 +1,67 @@
+//
+//  DetailView.swift
+//  Notes Watch App
+//
+//  Created by Ghenadie Isacenco on 25/10/2025.
+//
+
+import SwiftUI
+
+struct DetailView: View {
+    // MARK: - PROPERTIES
+    let note: Note
+    let count: Int
+    let index: Int
+    
+    // MARK: - BODY
+    var body: some View {
+        VStack(alignment: .center, spacing: 3) {
+            // 1. HEADER
+            HStack {
+                Capsule()
+                    .frame(height: 1)
+                
+                Image(systemName: "note.text")
+                
+                Capsule().frame(height: 1)
+            } //: HSTACK
+            .foregroundColor(.accentColor)
+            
+            // 2. CONTENT
+            Spacer()
+            
+            ScrollView(.vertical) {
+                Text(note.text)
+                    .font(.title3)
+                    .fontWeight(.semibold)
+                    .multilineTextAlignment(.center)
+            }
+            
+            Spacer()
+            
+            // 3. FOOTER
+            HStack(alignment: .center) {
+                Image(systemName: "gear")
+                    .imageScale(.large)
+                
+                Spacer()
+                
+                Text("\(count) / \(index + 1)")
+                
+                Spacer()
+                
+                Image(systemName: "info.circle")
+                    .imageScale(.large)
+            } //: HSTACK
+            .foregroundColor(.secondary)
+        } //: VSTACK
+        .padding(3)
+    }
+}
+
+// MARK: - PREVIEW
+#Preview {
+    var sampleData: Note = Note(id: UUID(), text: "Sample Data")
+    
+    DetailView(note: sampleData,count: 5, index: 1)
+}
