@@ -15,6 +15,7 @@
 		E1DEC4FA2EAD134F0061E95E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DEC4F92EAD134F0061E95E /* DetailView.swift */; };
 		E1DEC4FC2EAD1A270061E95E /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DEC4FB2EAD1A270061E95E /* CreditsView.swift */; };
 		E1DEC4FF2EAD1A790061E95E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DEC4FE2EAD1A790061E95E /* HeaderView.swift */; };
+		E1DEC5012EAD1E100061E95E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DEC5002EAD1E100061E95E /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		E1DEC4F92EAD134F0061E95E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		E1DEC4FB2EAD1A270061E95E /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
 		E1DEC4FE2EAD1A790061E95E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		E1DEC5002EAD1E100061E95E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				E1DEC4ED2EACD9090061E95E /* ContentView.swift */,
 				E1DEC4F92EAD134F0061E95E /* DetailView.swift */,
 				E1DEC4FB2EAD1A270061E95E /* CreditsView.swift */,
+				E1DEC5002EAD1E100061E95E /* SettingsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1DEC5012EAD1E100061E95E /* SettingsView.swift in Sources */,
 				E1DEC4F02EACD9090061E95E /* ContentView.swift in Sources */,
 				E1DEC4FF2EAD1A790061E95E /* HeaderView.swift in Sources */,
 				E1DEC4FA2EAD134F0061E95E /* DetailView.swift in Sources */,
